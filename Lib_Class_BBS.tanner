@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design Lib_Class_BBS -cell TB_8BitsUP_DOWN -type schematic -newwindow
+window move -left 224 -top 224 -width 1994 -height 776 -undock -max 
+window fit -x0 -4606 -y0 -852 -x1 6904 -y1 4252 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8

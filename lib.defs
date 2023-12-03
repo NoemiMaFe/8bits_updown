@@ -1,0 +1,2 @@
+DEFINE Lib_Class_BBS Lib_Class_BBS
+ASSIGN Lib_Class_BBS libMode shared
